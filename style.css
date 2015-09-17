@@ -1,12 +1,8 @@
-
-
-
-
 body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	font: Arial, Arial, sans-serif;
+	font: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #061C37;
 	background-color: #E6E6FA;
@@ -31,7 +27,7 @@ body {
 	position:absolute;
 text-align:right;
 font-size:30px;
-color:#AB970C;
+color:#F5F5F5;
 left:600px;
 top:220px;
 }
@@ -45,6 +41,15 @@ color:#776906;
 left:600px;
 top:252px;
 }
+
+#mainpic
+{
+background-image:url(images/main.jpg);
+background-repeat:no-repeat;
+width:900px;
+height:354px;	
+}
+
 
 
 .lighter
@@ -123,11 +128,10 @@ font-weight:bold;
 	font-weight: bold;
 	padding-top: 16px;
 	font-size: 17px;
-    background:#D3D3D3;
 }
 
 #menu a:hover{
-	color:#F5F5F5;
+	color:#B39311;
 }
 
 #content p
@@ -137,6 +141,6 @@ font-weight:bold;
 
 
 html, body {
-text-align: left;
+text-align: center;
 }
-p {text-align: justify;}
+p {text-align: left;}
